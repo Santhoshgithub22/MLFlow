@@ -23,7 +23,7 @@ def get_data():
     except Exception as e:
         raise e
 
-def evaluate(y_true, y_pred):
+def evaluate(y_true, y_pred, pred_prob):
     """mae = mean_absolute_error(y_true, y_pred)
     mse = mean_squared_error(y_true, y_pred)
     rmse = np.sqrt(mean_squared_error(y_true, y_pred))
@@ -31,7 +31,8 @@ def evaluate(y_true, y_pred):
     return mae, mse, rmse, r2"""
 
     accuracy = accuracy_score(y_true, y_pred)
-    return accuracy
+    roc_auc_score = roc_auc_score(y_true, pred_prob, multi_class="ovr")
+    return accuracy, roc_auc_score
 
 
 
@@ -51,17 +52,28 @@ def main(n_estimators, max_depth):
     lr.fit(X_train, y_train)
     pred = lr.predict(X_test)"""
 
-    rf = RandomForestClassifier()
-    rf.fit(X_train, y_train)
-    pred = rf.predict(X_test)
+    with mlflow.start_run():
+        rf = RandomForestClassifier()
+        rf.fit(X_train, y_train)
+        pred = rf.predict(X_test)
+
+        pred_prob = rf.predict_proba(X_test)
 
 
-    # Evaluate the model
-    # mae, mse, rmse, r2 = evaluate(y_test, pred)
-    #print(f"mean absolute error {mae}, mean squared error {mse}, root mean squared error {rmse}, r2_score {r2}")
+        # Evaluate the model
+        # mae, mse, rmse, r2 = evaluate(y_test, pred)
+        #print(f"mean absolute error {mae}, mean squared error {mse}, root mean squared error {rmse}, r2_score {r2}")
 
-    accuracy = evaluate(y_test, pred)
-    print(f"Accuracy {accuracy}")
+        accuracy, roc_auc_score = evaluate(y_test, pred, pred_prob)
+
+        mlflow.log_param("n_estimators", n_estimators)
+        mlflow.log_param("max_depth", max_depth)
+
+        mlflow.log_param("auucuracy", accuracy)
+        mlflow.log_param("roc_auc_score", roc_auc_score)
+
+
+        print(f"Accuracy {accuracy}")
 
 
 
