@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/92a87fc2cf3f434c9acf00bd07b8c95d/artifacts
+end_time: 1694179083828
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92a87fc2cf3f434c9acf00bd07b8c95d
+run_name: nosy-chimp-295
+run_uuid: 92a87fc2cf3f434c9acf00bd07b8c95d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179079517
+status: 3
+tags: []
+user_id: msant

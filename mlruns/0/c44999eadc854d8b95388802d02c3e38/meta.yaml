@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/c44999eadc854d8b95388802d02c3e38/artifacts
+end_time: 1694179074541
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c44999eadc854d8b95388802d02c3e38
+run_name: rebellious-hen-127
+run_uuid: c44999eadc854d8b95388802d02c3e38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179069637
+status: 3
+tags: []
+user_id: msant

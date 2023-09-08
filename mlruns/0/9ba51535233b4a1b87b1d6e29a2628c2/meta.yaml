@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/9ba51535233b4a1b87b1d6e29a2628c2/artifacts
+end_time: 1694179251247
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ba51535233b4a1b87b1d6e29a2628c2
+run_name: kindly-trout-171
+run_uuid: 9ba51535233b4a1b87b1d6e29a2628c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179246113
+status: 3
+tags: []
+user_id: msant

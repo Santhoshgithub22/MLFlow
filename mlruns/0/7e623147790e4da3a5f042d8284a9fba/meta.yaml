@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/7e623147790e4da3a5f042d8284a9fba/artifacts
+end_time: 1694179283125
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e623147790e4da3a5f042d8284a9fba
+run_name: trusting-rat-849
+run_uuid: 7e623147790e4da3a5f042d8284a9fba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179277653
+status: 3
+tags: []
+user_id: msant

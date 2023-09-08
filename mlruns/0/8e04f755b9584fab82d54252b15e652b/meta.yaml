@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/8e04f755b9584fab82d54252b15e652b/artifacts
+end_time: 1694179190618
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8e04f755b9584fab82d54252b15e652b
+run_name: caring-kit-547
+run_uuid: 8e04f755b9584fab82d54252b15e652b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179184779
+status: 3
+tags: []
+user_id: msant

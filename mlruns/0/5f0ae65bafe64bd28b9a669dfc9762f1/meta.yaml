@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/5f0ae65bafe64bd28b9a669dfc9762f1/artifacts
+end_time: 1694179221916
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5f0ae65bafe64bd28b9a669dfc9762f1
+run_name: colorful-fowl-335
+run_uuid: 5f0ae65bafe64bd28b9a669dfc9762f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179216591
+status: 3
+tags: []
+user_id: msant

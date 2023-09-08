@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/705416d42a9d447dba4f49a295a4b041/artifacts
+end_time: 1694179065165
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 705416d42a9d447dba4f49a295a4b041
+run_name: resilient-finch-864
+run_uuid: 705416d42a9d447dba4f49a295a4b041
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179059611
+status: 3
+tags: []
+user_id: msant

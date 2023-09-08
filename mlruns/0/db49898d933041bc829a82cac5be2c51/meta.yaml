@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/db49898d933041bc829a82cac5be2c51/artifacts
+end_time: 1694179139543
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: db49898d933041bc829a82cac5be2c51
+run_name: popular-foal-160
+run_uuid: db49898d933041bc829a82cac5be2c51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179133741
+status: 3
+tags: []
+user_id: msant

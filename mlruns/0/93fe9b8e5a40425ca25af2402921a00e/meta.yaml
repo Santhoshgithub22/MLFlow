@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/93fe9b8e5a40425ca25af2402921a00e/artifacts
+end_time: 1694179179771
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93fe9b8e5a40425ca25af2402921a00e
+run_name: welcoming-wolf-791
+run_uuid: 93fe9b8e5a40425ca25af2402921a00e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179174798
+status: 3
+tags: []
+user_id: msant

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/e69bdd18bab84fdca2f5e1defae2d86d/artifacts
+end_time: 1694179102872
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e69bdd18bab84fdca2f5e1defae2d86d
+run_name: sincere-swan-538
+run_uuid: e69bdd18bab84fdca2f5e1defae2d86d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179098211
+status: 3
+tags: []
+user_id: msant

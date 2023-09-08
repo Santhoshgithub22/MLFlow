@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/2b83839d7710488eb7f30122c309c3d0/artifacts
+end_time: 1694179304158
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2b83839d7710488eb7f30122c309c3d0
+run_name: nosy-shrew-322
+run_uuid: 2b83839d7710488eb7f30122c309c3d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179299006
+status: 3
+tags: []
+user_id: msant

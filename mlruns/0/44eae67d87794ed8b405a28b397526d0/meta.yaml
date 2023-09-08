@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/44eae67d87794ed8b405a28b397526d0/artifacts
+end_time: 1694179160524
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 44eae67d87794ed8b405a28b397526d0
+run_name: funny-hawk-898
+run_uuid: 44eae67d87794ed8b405a28b397526d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694179155111
+status: 3
+tags: []
+user_id: msant

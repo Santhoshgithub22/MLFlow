@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/38d33c4fb6e0427494b6846bb3428beb/artifacts
+end_time: 1694178333324
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 38d33c4fb6e0427494b6846bb3428beb
+run_name: defiant-bat-377
+run_uuid: 38d33c4fb6e0427494b6846bb3428beb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694178328653
+status: 3
+tags: []
+user_id: msant
