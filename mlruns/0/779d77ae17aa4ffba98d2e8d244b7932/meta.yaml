@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLFLOW/mlruns/0/779d77ae17aa4ffba98d2e8d244b7932/artifacts
+end_time: 1694144810210
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 779d77ae17aa4ffba98d2e8d244b7932
+run_name: incongruous-asp-184
+run_uuid: 779d77ae17aa4ffba98d2e8d244b7932
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694144810188
+status: 3
+tags: []
+user_id: msant
